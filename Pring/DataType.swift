@@ -412,7 +412,7 @@ public enum DataType {
                 subjectType == Int64?.self ||
                 subjectType == Float?.self ||
                 subjectType == Double?.self {
-            fatalError("[Pring.DataType] *** error: Invalid DataType. \(subjectType) is number. Pring not support optional number type." )
+            //fatalError("[Pring.DataType] *** error: Invalid DataType. \(subjectType) is number. Pring not support optional number type." )
         }
     }
 
